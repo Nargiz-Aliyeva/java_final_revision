@@ -28,7 +28,9 @@ else {
 
 
 
-        Scanner scanner = new Scanner(System.in);
+
+
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number ");
         int a = scanner.nextInt();
         if (a>0){
@@ -41,6 +43,25 @@ else {
             System.err.println(a+ " is zero");
         }
 
+*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your number ");
+        int a= scanner.nextInt();
+        if (a>0){
+            System.out.println(a + " is posetive number");
+        }
+        else {
+            if (a<0)
+            {  System.out.println(a + " is negative number");
+        }
+        else {
+            System.err.println(a + " is equal  zero");
+        }
+
+        }
+
 
     }
-}
+
+
+    }
