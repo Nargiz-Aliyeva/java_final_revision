@@ -3,7 +3,7 @@ import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[]args){
+    public static void main(String[]args) {
 
       /*  Scanner scanner = new Scanner(System.in);
        int a =-2;
@@ -24,26 +24,23 @@ public class Main {
 else {
             System.out.println(a + "is negative number");
         }
+
+
 */
 
 
-
-
-
-        /*Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number ");
         int a = scanner.nextInt();
-        if (a>0){
+        if (a > 0) {
             System.out.println(a + " is posetive number");
-        }
-        else if (a<0){
+        } else if (a < 0) {
             System.out.println(a + " is negative number");
-        }
-        else if(a==0){
-            System.err.println(a+ " is zero");
+        } else {
+            System.err.println(a + " is zero");
         }
 
-*/
+/*
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number ");
         int a= scanner.nextInt();
@@ -60,6 +57,29 @@ else {
 
         }
 
+*/
+
+        //oxsarini edecem
+
+        String defaultUserName = "admin";
+        String defaultUserPassword = "12345";
+        System.out.println("Enter username: ");
+
+        String enteredUserName = scanner.next();
+        System.out.println("Enter password: ");
+        String enteredUserPassword = scanner.next();
+        if (enteredUserName.equals(defaultUserName)) {
+            if (enteredUserPassword.equals(defaultUserPassword)){
+                System.out.println("Welcome Hesterxan");
+            }
+            else {
+                System.err.println("Password is wrong");
+            }
+
+        }
+        else {
+            System.err.println("Username is wrong");
+        }
 
     }
 
