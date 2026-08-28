@@ -23,10 +23,18 @@ public class Grammar {
 
 
 
+// birinci and e bax
+    /*
+if (false|| true&& false){
+        System.out.println("true");
+
+    }
+else {
+        System.out.println("false");
+    }
 
 
-
-
+*/
 
 
 

@@ -105,7 +105,7 @@ if (false|| false||true){
     System.out.println("working");
 }
 
-
+/*
 int tarix=90;
 //int riyaziyyat =49;
 int riyaziyyat=51;
@@ -123,8 +123,19 @@ int kimya =55;
         else {
             System.out.println("not succes");
         }
+
+*/
+// birinci and e bax
+if (false|| true&& false){
+    System.out.println("true");
+
+}
+else {
+    System.out.println("false");
+}
+
+
+
     }
-
-
 
 }
