@@ -14,6 +14,24 @@ public class Grammar {
     //and ile or bir yerde islemek isteyerse evvel && baxiriq sonra or a cunki && vurmadi vurma birinci hesablanir yeni && ordan daha ustundur
     //swer o ya baslayamda if le baslayir
     // else blokunun icinde moterize acib sert yazilmaz hec bir proq dil bele bir sey yosdu
+    // if(true && false){
+    // System.out.print.ln("working")
+    // }
+    //&& telebi odurki butun terefler true olsun eger iki terefin biri falsedirse netice false olacaq
+ //   && olan yerde birdenede olsa false varsa netice hemise falsedir
+// || deyirkki istenilen qeder or olsun  bir dene true olsun netice truedur
+
+
+
+
+
+
+
+
+
+
+
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------
 // Looplar :
 }
