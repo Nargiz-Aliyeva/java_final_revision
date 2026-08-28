@@ -1,15 +1,46 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    public static void main(String[]args){
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+      /*  Scanner scanner = new Scanner(System.in);
+       int a =-2;
+
+
+        if (a>0){
+    System.out.println(a +"is posetive number");
+}
+       else {
+            System.out.println(a+ "is negative number");
         }
+*/
+
+     /*   int a = 5;
+        if (a>0){
+            System.out.println(a + "is posetive number");
+        }
+else {
+            System.out.println(a + "is negative number");
+        }
+*/
+
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your number ");
+        int a = scanner.nextInt();
+        if (a>0){
+            System.out.println(a + " is posetive number");
+        }
+        else if (a<0){
+            System.out.println(a + " is negative number");
+        }
+        else if(a==0){
+            System.err.println(a+ " is zero");
+        }
+
+
     }
 }
