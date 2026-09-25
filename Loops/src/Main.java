@@ -96,11 +96,11 @@ for (int c=3; c>=1;c--){
         System.out.println(c+"."+d);
     }
 }*/
-/*for (int i =1; i<=50;i++){
+for (int i =1; i<=50;i++){
     if (i%3 ==0 && i%5 ==0){
         System.out.println(i);
     }
-}*/
+}
         /*
 int sum =0;
 for (int a=1 ;a<=10;a++){
@@ -113,7 +113,7 @@ break continui birde bacacagiq
 */
         for (int i =1;i<=10;i++){
             if (i==5){
-                continue;
+                break;
             }
             System.out.println(i);}
 
