@@ -120,6 +120,11 @@ for (int i = 1 ; i<=64; i++){
             System.out.println("sum="+sum);
             bugdaSayi = bugdaSayi.multiply(BigInteger.valueOf(2));
 
+
+
+
+
+
         }
 
     }
