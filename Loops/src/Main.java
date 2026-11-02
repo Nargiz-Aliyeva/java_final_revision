@@ -118,7 +118,10 @@ break continui birde bacacagiq
             System.out.println(i);}
 
 
-
+var bugdaSayi = 1;
+        for (int i =1; i<=64; i++){
+            System.out.println("xana = "+i+", bugda =");
+        }
 
 
 
